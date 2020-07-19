@@ -23,7 +23,7 @@ if (url === "/") {
     return req.on("end", () => {
       console.log("body: ", body);
       const parsedBody = Buffer.concat(body).toString();
-      const message = parsedBody.split("=")[1];
+      const message = parsedBody.split("&")[0].split('=')[1];
       fs.writeFile("message.txt", message, err => {
           console.log("parsedBody: ", message);
           res.statusCode = 302;

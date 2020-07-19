@@ -1,0 +1,24 @@
+{
+  "name": "nodejs_course",
+  "version": "1.0.0",
+  "description": "Complete NodeJS Guide",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msal96/nodejs.git"
+  },
+  "author": "Mihail Salari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msal96/nodejs/issues"
+  },
+  "homepage": "https://github.com/msal96/nodejs#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
