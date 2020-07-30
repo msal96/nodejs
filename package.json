@@ -17,7 +17,10 @@
     "url": "https://github.com/msal96/nodejs/issues"
   },
   "homepage": "https://github.com/msal96/nodejs#readme",
-  "dependencies": {},
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
   "devDependencies": {
     "nodemon": "^2.0.4"
   }
